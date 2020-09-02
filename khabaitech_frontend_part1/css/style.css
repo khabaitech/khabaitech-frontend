@@ -3804,7 +3804,115 @@ select {
   color: #0c59db;
   top: 10px;
 }
+/* Award Section */
 
+.award-section {
+  position: relative;
+  padding: 120px 0 90px;
+}
+
+.award-section .sec-title {
+  z-index: 1;
+}
+
+.award-section .year {
+  position: absolute;
+  top: -110px;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 500px;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(156, 156, 156, 0.15);
+  line-height: 400px;
+}
+
+.award-section .award-image {
+  position: relative;
+}
+
+.award-section .award-image .image {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.award-section .feature-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.award-section .feature-image .image-one {
+  position: absolute;
+  left: 33px;
+  top: 50%;
+  -webkit-transform: translateY(-50%) rotate(36deg);
+  -ms-transform: translateY(-50%) rotate(36deg);
+  transform: translateY(-50%) rotate(36deg);
+  overflow: hidden;
+}
+
+.award-section .feature-image .image-one img {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.award-section .feature-image .image-one:hover img {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.award-section .feature-image .image-two {
+  position: absolute;
+  right: 33px;
+  top: -50px;
+  -webkit-transform: rotate(-36deg);
+  -ms-transform: rotate(-36deg);
+  transform: rotate(-36deg);
+  overflow: hidden;
+}
+
+.award-section .feature-image .image-two img {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.award-section .feature-image .image-two:hover img {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.award-section .feature-image .image-three {
+  position: absolute;
+  right: 33px;
+  bottom: 150px;
+  -webkit-transform: rotate(36deg);
+  -ms-transform: rotate(36deg);
+  transform: rotate(36deg);
+  overflow: hidden;
+}
+
+.award-section .feature-image .image-three img {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.award-section .feature-image .image-three:hover img {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
 /*=================================================*/
 /*----------- [_Section_Pricing_Tables] -----------*/
 /*=================================================*/
