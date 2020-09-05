@@ -3843,18 +3843,18 @@ select {
 .award-section .feature-image {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 10%;
   right: 0;
   bottom: 0;
 }
 
 .award-section .feature-image .image-one {
   position: absolute;
-  left: 33px;
-  top: 50%;
-  -webkit-transform: translateY(-50%) rotate(36deg);
-  -ms-transform: translateY(-50%) rotate(36deg);
-  transform: translateY(-50%) rotate(36deg);
+  left: 40%;
+  top: 100%;
+  -webkit-transform: translateY(-50%) rotate(0deg);
+  -ms-transform: translateY(-50%) rotate(0deg);
+  transform: translateY(-50%) rotate(0deg);
   overflow: hidden;
 }
 
@@ -3872,8 +3872,8 @@ select {
 
 .award-section .feature-image .image-two {
   position: absolute;
-  right: 33px;
-  top: -50px;
+  right: 35%;
+  top: 100%;
   -webkit-transform: rotate(-36deg);
   -ms-transform: rotate(-36deg);
   transform: rotate(-36deg);
@@ -3894,7 +3894,7 @@ select {
 
 .award-section .feature-image .image-three {
   position: absolute;
-  right: 33px;
+  right: 75%;
   bottom: 150px;
   -webkit-transform: rotate(36deg);
   -ms-transform: rotate(36deg);
